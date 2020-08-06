@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import clsx from "clsx";
+import PropTypes from 'prop-types';
 import { StyledWrapper, StyledImg } from './styled';
 
 function LazyImage({ className, src, alt, lqip, aspectRatio = 2 / 3 }) {
@@ -25,6 +26,14 @@ function LazyImage({ className, src, alt, lqip, aspectRatio = 2 / 3 }) {
         />
      </StyledWrapper>
   );
+}
+
+LazyImage.propTypes = {
+    className: PropTypes.string,
+    src: PropTypes.string,
+    alt: PropTypes.string,
+    lqip: PropTypes.string,
+    aspectRatio: PropTypes.number,
 }
 
 export default LazyImage;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filters/> checking snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm iIWFFH"
+  >
+    <input
+      class="sc-AxirZ llAEvb"
+      data-testid="input"
+      name="name"
+      placeholder="Name e.g John"
+    />
+    <select
+      class="sc-AxiKw eXVNoW"
+      data-testid="select"
+      name="city"
+    >
+      <option
+        value=""
+      >
+        Filter by Offices
+      </option>
+      <option
+        value="lund"
+      >
+        lund
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

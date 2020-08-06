@@ -1,13 +1,31 @@
 
-## Available Scripts
+# Payment Widget
+<br/>
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+```bash
+    npm i
+    npm start
+```
+* http://localhost:3000
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Test Cases
+
+```bash
+    npm test
+```
+
+## Description
+
+* A single page application to show the profiles of employees.
+* A fancy animations to make it more attractive for customers.
+* Infinte scroll functionality for better performance and make it more user friendly.
+* Filters to refine your search (By Name and offices)
+* Lazy load image feature for better user experience
+* Responsive Design
+* Cross browser compatibilty
 
 
-### `npm test`
+
 
