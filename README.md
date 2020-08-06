@@ -1,19 +1,18 @@
 
-# Payment Widget
+# Ninja Profiles
 <br/>
-
 ## Installation
 
 ```bash
-    npm i
-    npm start
+npm i
+npm start
 ```
 * http://localhost:3000
 
 ## Test Cases
 
 ```bash
-    npm test
+npm test
 ```
 
 ## Description
