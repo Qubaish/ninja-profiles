@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NinjaProfiles /> checking snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxmLO ebeJGn"
+  >
+    <div
+      class="sc-AxgMl cVTAUL"
+    >
+      <input
+        class="sc-AxheI hKmZkO"
+        data-testid="input"
+        name="name"
+        placeholder="Name e.g John"
+      />
+      <select
+        class="sc-Axmtr bCXJyw"
+        data-testid="select"
+        name="city"
+      >
+        <option
+          value=""
+        >
+          Filter by Offices
+        </option>
+      </select>
+    </div>
+    <h1>
+      No Records Found
+    </h1>
+    <div>
+      <div
+        class="sc-fzozJi jWrzyX"
+        data-testid="profile-wrapper"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -35,7 +35,7 @@ export const StyledContactInfo = styled.div`
         color: #000;
         padding-right: 0.5rem;
     }
-    h1 {
+    h2 {
         margin: 0;
         font-size: 1.4rem;
     }

@@ -37,7 +37,7 @@ export default function ProfileCard({ className, profile}) {
             />
             <StyledContactInfo>
                 <StyledPersonalDetails>
-                    <h1>{name}</h1>
+                    <h2>{name}</h2>
                     <p>{`${officeText} ${office}`}</p>
                 </StyledPersonalDetails>
                 <Icons icons={iconsToShowf({linkedIn, gitHub, twitter})} />
@@ -48,12 +48,5 @@ export default function ProfileCard({ className, profile}) {
 
 ProfileCard.propTypes = {
     className: PropTypes.string,
-    profile: PropTypes.objectOf({
-        name: PropTypes.string,
-        office: PropTypes.string,
-        imagePortraitUrl: PropTypes.string,
-        linkedIn: PropTypes.string,
-        gitHub: PropTypes.string,
-        twitter: PropTypes.string,
-    }),
+    profile: PropTypes.shape({}),
 };
