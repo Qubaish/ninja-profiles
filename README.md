@@ -53,13 +53,13 @@ npm test
 ## Details and Thoughts
 
 * I am using <a href="https://atomicdesign.bradfrost.com/chapter-2/" >Atomic design pattern</a> for better reusability of each small unit of component.
-* For fancy animations i am using <a href="https://github.com/FormidableLabs/react-animations">react-animations </a> the component have lot of animations and very easy to implement and this package is using animate.css.
+* For fancy animations i am using <a href="https://github.com/FormidableLabs/react-animations">react-animations </a> this package have lot of animations and very easy to implement and this package is using animate.css.
 * To load cards on scroll i am using inifite scroller as recommended <a href="https://github.com/danbovey/react-infinite-scroller">Infite scroll</a>.
-* I am good at playing with javascript arrays and functions so that I selected sorted and filter functions.
+* I am good at playing with javascript arrays and functions so I have selected sorted and filter functions.
 * I was confused about sorting so for now I am showing sorting by default but we can also provide this option for users.
-* I am using react-test-library for unit test cases and integrated with codeclimate
+* I am using react-test-library (<a href="https://testing-library.com/docs/react-testing-library/intro">Lib</a>) for unit test cases and integrated with <a href="https://codeclimate.com/">Codeclimate </a>
 * The components are styled components and using react library. <a href="https://github.com/styled-components/styled-components">styled components</a>
-* For responsives i have created on utils for breakpoints which will handle all screens.
+* For responsives i have created one util for breakpoints which will handle all screens.
 
 
 
