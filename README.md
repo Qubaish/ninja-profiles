@@ -1,6 +1,7 @@
 
 # Ninja Profiles
 <br/>
+
 ## Installation
 
 ```bash
