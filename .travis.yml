@@ -10,7 +10,7 @@ addons:
 
 script:
   - npm run test:coverage
-  - npm run build
+  - CI=false npm build
 
 before_install:
   - export CHROME_BIN=chromium-browser
