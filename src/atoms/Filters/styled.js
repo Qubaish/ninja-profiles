@@ -5,7 +5,7 @@ export const StyledFilterWrapper = styled.div`
     background: #fff;
     margin-bottom: 2rem;
     padding: 1rem;
-    background-color: #7FC564;
+    background-color: #FCFDFF;
     border-radius: 0.3rem;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ export const StyledInput = styled.input`
     font-size: 1rem;
     font-weight: inherit;
     line-height: 1.8;
-    border: none;
+    border: 1px solid #dcdde0;
     border-radius: 0.4rem;
     transition: box-shadow 300ms;
     box-sizing: border-box;
@@ -37,7 +37,8 @@ export const StyledSelect = styled.select`
     width: 48%;
     border: none;
     padding: 1rem;
-    border-radius: 0.9rem;
+    border: 1px solid #dcdde0;
+    border-radius: 0.3rem;
     box-shadow: 1px 2px 3px rgba(220,221,224,0.6);
     :focus {
         outline: none;

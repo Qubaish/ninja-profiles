@@ -3,16 +3,16 @@
 exports[`<Filters/> checking snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="sc-AxjAm iIWFFH"
+    class="sc-AxjAm idaAJJ"
   >
     <input
-      class="sc-AxirZ llAEvb"
+      class="sc-AxirZ beswKk"
       data-testid="input"
       name="name"
       placeholder="Name e.g John"
     />
     <select
-      class="sc-AxiKw eXVNoW"
+      class="sc-AxiKw pHQxu"
       data-testid="select"
       name="city"
     >

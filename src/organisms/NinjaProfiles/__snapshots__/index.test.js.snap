@@ -6,16 +6,16 @@ exports[`<NinjaProfiles /> checking snapshot 1`] = `
     class="sc-AxmLO ebeJGn"
   >
     <div
-      class="sc-AxgMl cVTAUL"
+      class="sc-AxgMl cpXvYN"
     >
       <input
-        class="sc-AxheI hKmZkO"
+        class="sc-AxheI hSpogh"
         data-testid="input"
         name="name"
         placeholder="Name e.g John"
       />
       <select
-        class="sc-Axmtr bCXJyw"
+        class="sc-Axmtr fGszkM"
         data-testid="select"
         name="city"
       >
